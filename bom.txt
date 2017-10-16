@@ -1,0 +1,28 @@
+BOM Mosfet board
+================
+8 x bout, 16x moer, 24xring M6 (€30,- montagetechniek.nl)
+4 x 10K of 100K weerstand (naar 0 trekken)
+1 x  RS 189-6256
+1 x  RS 189-6060
+12 x PSMN3R4-30PL Mosfet
+5 x IDP30E65D1XKSA1
+1 x Pudenz 425A Automotive Bolt-down Fuse, 80V dc
+2 x 2200uF / 35V Elco
+12 x Weerstand 4.7 ohm, 1/2Watt
+
+BOM Arduino board
+=================
+Pin headers (arduino)
+2 x DIP 2x8 voet
+2 x 4u7 / 60V
+5 x 100uF
+1 x 7805
+1 x 2200uF
+1 x 1N4007
+1 x RS 820-1576 pin header
+1 x RS 820-1633 connector housing
+1 x 7815ACT
+2 x 1N5819
+2 x IR2184
+1 x Fuse holder RS  176-9047
+
