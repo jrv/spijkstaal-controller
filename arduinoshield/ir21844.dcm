@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PSMN3R4
+D NXP PSMN3R4-30PL N-channel MOSFET, 100 A, 30 V, 3-Pin TO-220AB
+K HEXFET N-Channel MOSFET
+F http://nl.rs-online.com/web/p/mosfet-transistors/7982959/
+$ENDCMP
+#
+#End Doc Library
