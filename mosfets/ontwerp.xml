@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jaap/Documents/spijkstaal/controller/ontwerp/ontwerp.sch</source>
+    <date>vr 22 sep 2017 19:25:57 CEST</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Spijkstaal Power Regulator Replacement</title>
+        <company>ZB45 Makerspace</company>
+        <rev/>
+        <date/>
+        <source>ontwerp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C11">
+      <value>2000uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5995E9D0</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>PSMN3R4</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="jaapslib" part="PSMN3R4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5995F3F3</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>PSMN3R4</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="jaapslib" part="PSMN3R4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5995F4D9</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>IR2184</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="jaapslib" part="IR2184"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5995F632</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>PSMN3R4</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="jaapslib" part="PSMN3R4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5995FC7B</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>MOTOR</value>
+      <footprint>jaapslib:AccuDraad</footprint>
+      <libsource lib="jaapslib" part="MOTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5995FE1C</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>PSMN3R4</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="jaapslib" part="PSMN3R4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599610A4</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>PSMN3R4</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="jaapslib" part="PSMN3R4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996110F</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>2000uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59962333</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>PSMN3R4</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="jaapslib" part="PSMN3R4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59962343</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>PSMN3R4</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="jaapslib" part="PSMN3R4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59962349</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>PSMN3R4</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="jaapslib" part="PSMN3R4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996234F</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>PSMN3R4</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="jaapslib" part="PSMN3R4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59962355</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>PSMN3R4</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="jaapslib" part="PSMN3R4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996235C</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>PSMN3R4</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="jaapslib" part="PSMN3R4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59962362</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4R7</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59962A6A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4R7</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59962BD8</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4R7</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59962C43</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>IR2184</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="jaapslib" part="IR2184"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996569B</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>4u7</value>
+      <footprint>Capacitors_THT:CP_Radial_D25.0mm_P10.00mm_SnapIn</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59965A94</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>4u7</value>
+      <footprint>Capacitors_THT:CP_Radial_D25.0mm_P10.00mm_SnapIn</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59965D1F</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59965E43</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59965F4E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59966973</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N5819</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59966A7A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM7815ACT</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="ontwerp-cache" part="LM7815ACT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59967541</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996800C</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599688B0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>2200uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599696B4</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4007</value>
+      <footprint>Diodes_THT:D_A-405_P12.70mm_Horizontal</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599698DC</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996A0BB</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996A250</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>1A</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201</footprint>
+      <libsource lib="ontwerp-cache" part="F_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996AA5B</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>300A (slow)</value>
+      <footprint>jaapslib:BoltDownFuse</footprint>
+      <libsource lib="ontwerp-cache" part="F_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996AEE2</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>ATMEGA328P-P</value>
+      <footprint>Housings_DIP:DIP-28_W7.62mm</footprint>
+      <libsource lib="ontwerp-cache" part="ATMEGA328P-P-RESCUE-ontwerp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996B969</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>CERAMIC_FILTER</value>
+      <footprint>Connectors:PINHEAD1-3</footprint>
+      <libsource lib="arduino" part="CERAMIC_FILTER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996D4BB</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_6</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_6pol</footprint>
+      <libsource lib="arduino" part="CONN_6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996DB0B</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996DF0E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996E1C5</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996F2A1</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitors_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5996F676</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>POT</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol</footprint>
+      <libsource lib="ontwerp-rescue" part="POT-RESCUE-ontwerp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5997B9FE</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>PSMN3R4</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="jaapslib" part="PSMN3R4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5995F464</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>24V Battery</value>
+      <footprint>jaapslib:AccuDraad</footprint>
+      <libsource lib="ontwerp-rescue" part="Battery-RESCUE-ontwerp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5998A1CE</tstamp>
+    </comp>
+    <comp ref="M1B1">
+      <value>MOTOR</value>
+      <footprint>jaapslib:AccuDraad</footprint>
+      <libsource lib="jaapslib" part="MOTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5998B877</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>L7805</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="regul" part="L7805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C46E82</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>TO_SOT_Packages_THT:TO-220-2_Vertical</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4E5A8</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <footprint>TO_SOT_Packages_THT:TO-220-2_Vertical</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4EB19</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <footprint>TO_SOT_Packages_THT:TO-220-2_Vertical</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4EBE5</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D</value>
+      <footprint>TO_SOT_Packages_THT:TO-220-2_Vertical</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C4ED46</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>TO_SOT_Packages_THT:TO-220-2_Vertical</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C50F3F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4R7</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C631DE</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4R7</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C632A5</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>4R7</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C633B1</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>4R7</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C6538B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>4R7</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C6545E</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>4R7</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C66430</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>4R7</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C66581</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>4R7</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C674E9</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>4R7</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C675CA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ontwerp-cache" part="ATMEGA328P-P-RESCUE-ontwerp">
+      <footprints>
+        <fp>28DIP-ELL600</fp>
+        <fp>28dip600</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATMEGA328P-P-RESCUE-ontwerp</field>
+        <field name="Footprint">DIL28</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT14/~RESET~)PC6" type="BiDi"/>
+        <pin num="2" name="(PCINT16/RXD)PD0" type="BiDi"/>
+        <pin num="3" name="(PCINT17/TXD)PD1" type="BiDi"/>
+        <pin num="4" name="(PCINT18/INT0)PD2" type="BiDi"/>
+        <pin num="5" name="(PCINT19/OC2B/INT1)PD3" type="BiDi"/>
+        <pin num="6" name="(PCINT20/XCK/T0)PD4" type="BiDi"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="(PCINT6/XTAL1/TOSC1)PB6" type="BiDi"/>
+        <pin num="10" name="(PCINT7/XTAL2/TOSC2)PB7" type="BiDi"/>
+        <pin num="11" name="(PCINT21/OC0B/T1)PD5" type="BiDi"/>
+        <pin num="12" name="(PCINT22/OC0A/AIN0)PD6" type="BiDi"/>
+        <pin num="13" name="(PCINT23/AIN1)PD7" type="BiDi"/>
+        <pin num="14" name="(PCINT0/CLKO/ICP1)PB0" type="BiDi"/>
+        <pin num="15" name="(PCINT1/OC1A)PB1" type="BiDi"/>
+        <pin num="16" name="(PCINT2/OC1B/~SS~)PB2" type="BiDi"/>
+        <pin num="17" name="(PCINT3/OC2A/MOSI)PB3" type="BiDi"/>
+        <pin num="18" name="(PCINT4/MISO)PB4" type="BiDi"/>
+        <pin num="19" name="(PCINT5/SCK)PB5" type="BiDi"/>
+        <pin num="20" name="AVCC" type="power_in"/>
+        <pin num="21" name="AREF" type="input"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="(PCINT8/ADC0)PC0" type="BiDi"/>
+        <pin num="24" name="(PCINT9/ADC1)PC1" type="BiDi"/>
+        <pin num="25" name="(PCINT10/ADC2)PC2" type="BiDi"/>
+        <pin num="26" name="(PCINT11/ADC3)PC3" type="BiDi"/>
+        <pin num="27" name="(PCINT12/SDA/ADC4)PC4" type="BiDi"/>
+        <pin num="28" name="(PCINT13/SCL/ADC5)PC5" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="ontwerp-rescue" part="Battery-RESCUE-ontwerp">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery-RESCUE-ontwerp</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="arduino" part="CERAMIC_FILTER">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">CERAMIC_FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="arduino" part="CONN_6">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ontwerp-cache" part="F_Small">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">F_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jaapslib" part="IR2184">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IR2184</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="SD" type="input"/>
+        <pin num="3" name="COM" type="power_in"/>
+        <pin num="4" name="LO" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="VS" type="power_out"/>
+        <pin num="7" name="HO" type="power_out"/>
+        <pin num="8" name="VB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="ontwerp-cache" part="LM7805CT">
+      <aliases>
+        <alias>LM7806CT</alias>
+        <alias>LM7808CT</alias>
+        <alias>LM7809CT</alias>
+        <alias>LM7810CT</alias>
+        <alias>LM7812CT</alias>
+        <alias>LM7815CT</alias>
+        <alias>LM7818CT</alias>
+        <alias>LM7824CT</alias>
+        <alias>LM7806ACT</alias>
+        <alias>LM7808ACT</alias>
+        <alias>LM7809ACT</alias>
+        <alias>LM7810ACT</alias>
+        <alias>LM7812ACT</alias>
+        <alias>LM7815ACT</alias>
+        <alias>LM7818ACT</alias>
+        <alias>LM7824ACT</alias>
+      </aliases>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805CT</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-220_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="jaapslib" part="MOTOR">
+      <description>24V DC MOTOR Spijkstaal</description>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">MOTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SP" type="input"/>
+        <pin num="2" name="SP" type="input"/>
+        <pin num="3" name="SP" type="input"/>
+        <pin num="4" name="SP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ontwerp-rescue" part="POT-RESCUE-ontwerp">
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT-RESCUE-ontwerp</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jaapslib" part="PSMN3R4">
+      <description>NXP PSMN3R4-30PL N-channel MOSFET, 100 A, 30 V, 3-Pin TO-220AB</description>
+      <docs>http://nl.rs-online.com/web/p/mosfet-transistors/7982959/</docs>
+      <footprints>
+        <fp>TO-220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PSMN3R4</field>
+        <field name="Footprint">TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ontwerp-cache">
+      <uri>/home/jaap/Documents/spijkstaal/controller/ontwerp/ontwerp-cache.lib</uri>
+    </library>
+    <library logical="jaapslib">
+      <uri>/home/jaap/Documents/spijkstaal/controller/ontwerp/jaapslib.lib</uri>
+    </library>
+    <library logical="arduino">
+      <uri>/home/jaap/Documents/spijkstaal/controller/ontwerp/arduino.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="ontwerp-rescue">
+      <uri>/home/jaap/Documents/spijkstaal/controller/ontwerp/ontwerp-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(IC1-Pad23)">
+      <node ref="RV1" pin="2"/>
+      <node ref="IC1" pin="23"/>
+    </net>
+    <net code="2" name="/M-IN">
+      <node ref="Q11" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="M1B1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(IC1-Pad16)">
+      <node ref="U4" pin="1"/>
+      <node ref="IC1" pin="16"/>
+    </net>
+    <net code="4" name="Net-(IC1-Pad15)">
+      <node ref="IC1" pin="15"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="5" name="/+24V">
+      <node ref="BT1" pin="1"/>
+      <node ref="F1" pin="1"/>
+      <node ref="F2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(F3-Pad3)">
+      <node ref="IC1" pin="9"/>
+      <node ref="F3" pin="3"/>
+    </net>
+    <net code="7" name="Net-(F3-Pad1)">
+      <node ref="F3" pin="1"/>
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="8" name="/24V-Fused">
+      <node ref="D1" pin="2"/>
+      <node ref="F2" pin="2"/>
+    </net>
+    <net code="9" name="Net-(IC1-Pad2)">
+      <node ref="P1" pin="4"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="11" name="Net-(C8-Pad1)">
+      <node ref="P1" pin="6"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="12" name="Net-(Q3-Pad1)">
+      <node ref="R7" pin="2"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="13" name="Net-(Q2-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="14" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="16" name="/SIG1-HO">
+      <node ref="R9" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="17" name="Net-(Q5-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="18" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="19" name="/SIG1L">
+      <node ref="R2" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="20" name="/SIG2L">
+      <node ref="U4" pin="4"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="21" name="Net-(Q12-Pad1)">
+      <node ref="Q12" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="22" name="Net-(Q10-Pad1)">
+      <node ref="R11" pin="2"/>
+      <node ref="Q10" pin="1"/>
+    </net>
+    <net code="23" name="Net-(Q8-Pad1)">
+      <node ref="Q8" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="24" name="/SIG2-HO">
+      <node ref="R12" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="25" name="Net-(Q11-Pad1)">
+      <node ref="R12" pin="2"/>
+      <node ref="Q11" pin="1"/>
+    </net>
+    <net code="26" name="Net-(Q9-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="Q9" pin="1"/>
+    </net>
+    <net code="27" name="Net-(Q7-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="28" name="/+24V-HA">
+      <node ref="F1" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="M1B1" pin="1"/>
+    </net>
+    <net code="29" name="/+5V">
+      <node ref="RV1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="P1" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="IC1" pin="20"/>
+      <node ref="IC1" pin="21"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="32" name="Net-(C3-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="33" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="34" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="35" name="Net-(C13-Pad1)">
+      <node ref="U4" pin="8"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="36" name="Net-(IC1-Pad12)">
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="37" name="Net-(IC1-Pad19)">
+      <node ref="IC1" pin="19"/>
+    </net>
+    <net code="38" name="Net-(IC1-Pad28)">
+      <node ref="IC1" pin="28"/>
+    </net>
+    <net code="39" name="Net-(IC1-Pad18)">
+      <node ref="IC1" pin="18"/>
+    </net>
+    <net code="40" name="Net-(IC1-Pad27)">
+      <node ref="IC1" pin="27"/>
+    </net>
+    <net code="41" name="Net-(IC1-Pad17)">
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="42" name="Net-(IC1-Pad26)">
+      <node ref="IC1" pin="26"/>
+    </net>
+    <net code="43" name="Net-(IC1-Pad25)">
+      <node ref="IC1" pin="25"/>
+    </net>
+    <net code="44" name="Net-(IC1-Pad24)">
+      <node ref="IC1" pin="24"/>
+    </net>
+    <net code="45" name="Net-(IC1-Pad14)">
+      <node ref="IC1" pin="14"/>
+    </net>
+    <net code="46" name="Net-(IC1-Pad13)">
+      <node ref="IC1" pin="13"/>
+    </net>
+    <net code="47" name="Net-(IC1-Pad11)">
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="48" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="49" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="50" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="51" name="/+15V">
+      <node ref="U3" pin="5"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="52" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C9" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="53" name="/GND">
+      <node ref="U1" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="P1" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="F3" pin="2"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="Q12" pin="3"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="IC1" pin="22"/>
+      <node ref="C7" pin="2"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="C12" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="U2" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="U3" pin="3"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="54" name="/M2">
+      <node ref="M1" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="U4" pin="6"/>
+      <node ref="Q11" pin="3"/>
+      <node ref="C14" pin="2"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="C13" pin="2"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="55" name="Net-(C8-Pad2)">
+      <node ref="IC1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="56" name="/M1">
+      <node ref="Q6" pin="2"/>
+      <node ref="M1" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+  </nets>
+</export>
