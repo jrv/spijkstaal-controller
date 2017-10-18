@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jaap/Downloads/spijkstaal-controller/arduinoshield/Arduino_As_Uno.sch</source>
+    <date>wo 18 okt 2017 11:47:14 CEST</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Spijkstaal Power Regulator Replacement</title>
+        <company>ZB45 Makerspace</company>
+        <rev/>
+        <date/>
+        <source>Arduino_As_Uno.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>Power</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <libsource lib="Arduino_As_Uno-cache" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D70129</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Analog</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x06</footprint>
+      <libsource lib="Arduino_As_Uno-cache" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D70DD8</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Arduino_As_Uno-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D71177</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Arduino_As_Uno-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D71274</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Arduino_As_Uno-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D712A8</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Arduino_As_Uno-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D712DB</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <libsource lib="Arduino_As_Uno-cache" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7164F</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x10</footprint>
+      <libsource lib="Arduino_As_Uno-cache" part="CONN_01X10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D721E0</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>IR2184SPBF</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <libsource lib="Arduino_As_Uno-cache" part="IR2184"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C6257D</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>IR2184SPBF</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <libsource lib="Arduino_As_Uno-cache" part="IR2184"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C6257E</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4u7</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C6257F</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>4u7</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C62580</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C62581</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C62582</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819HW-7-F</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Description">Schottky Diode 40V 1A, 2-Pin-204AL</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C62583</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MC7815BD2TR4G</value>
+      <footprint>TO_SOT_Packages_SMD:ATPAK-2</footprint>
+      <fields>
+        <field name="Fabrikant">On Semiconductor</field>
+      </fields>
+      <libsource lib="Arduino_As_Uno-cache" part="LM7815ACT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C62585</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C62586</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C62587</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>2200uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D13.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="RS">711-1510</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C62588</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>MRA4007T3G</value>
+      <footprint>Diodes_SMD:D_2114</footprint>
+      <fields>
+        <field name="Fabrikant">On Semi</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C62589</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>1A</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_Schurter_0031_8201</footprint>
+      <libsource lib="Arduino_As_Uno-cache" part="F_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C6258A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x08</value>
+      <footprint>Connectors_JST:JST_XH_B08B-XH-A_08x2.50mm_Straight</footprint>
+      <fields>
+        <field name="RS">820-1576</field>
+        <field name="Fabrikant">JST B8B-XH-A (LF)(SN)</field>
+      </fields>
+      <libsource lib="conn" part="Conn_01x08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C6258C</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C62A0C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>L7805CD2T-TR</value>
+      <footprint>TO_SOT_Packages_SMD:ATPAK-2</footprint>
+      <libsource lib="regul" part="L7805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C62A0D</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N5819HW-7-F</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Fabrikant">STMicroelectronics</field>
+        <field name="Description">Schottky Diode 40V 1A, 2-Pin-204AL</field>
+        <field name="RS">486-4460</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D763A5</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <footprint>Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59E64C96</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x05</value>
+      <footprint>Connectors_JST:JST_XH_B05B-XH-A_05x2.50mm_Straight</footprint>
+      <libsource lib="conn" part="Conn_01x05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59E64CF9</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59E69236</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02</value>
+      <footprint>Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59E69F43</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x03</value>
+      <footprint>Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59E6B665</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59E6BE84</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59E6C1EF</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02</value>
+      <footprint>Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59E6F50D</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x02</value>
+      <footprint>Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59E70900</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4K7</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59E70E33</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Arduino_As_Uno-cache" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Arduino_As_Uno-cache" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Arduino_As_Uno-cache" part="CONN_01X08">
+      <footprints>
+        <fp>Pin_Header_Straight_1X08</fp>
+        <fp>Pin_Header_Angled_1X08</fp>
+        <fp>Socket_Strip_Straight_1X08</fp>
+        <fp>Socket_Strip_Angled_1X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Arduino_As_Uno-cache" part="CONN_01X10">
+      <footprints>
+        <fp>Pin_Header_Straight_1X10</fp>
+        <fp>Pin_Header_Angled_1X10</fp>
+        <fp>Socket_Strip_Straight_1X10</fp>
+        <fp>Socket_Strip_Angled_1X10</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Arduino_As_Uno-cache" part="F_Small">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">F_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Arduino_As_Uno-cache" part="IR2184">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IR2184</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="SD" type="input"/>
+        <pin num="3" name="COM" type="power_in"/>
+        <pin num="4" name="LO" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="VS" type="power_out"/>
+        <pin num="7" name="HO" type="power_out"/>
+        <pin num="8" name="VB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Arduino_As_Uno-cache" part="LM7805CT">
+      <aliases>
+        <alias>LM7806CT</alias>
+        <alias>LM7808CT</alias>
+        <alias>LM7809CT</alias>
+        <alias>LM7810CT</alias>
+        <alias>LM7812CT</alias>
+        <alias>LM7815CT</alias>
+        <alias>LM7818CT</alias>
+        <alias>LM7824CT</alias>
+        <alias>LM7806ACT</alias>
+        <alias>LM7808ACT</alias>
+        <alias>LM7809ACT</alias>
+        <alias>LM7810ACT</alias>
+        <alias>LM7812ACT</alias>
+        <alias>LM7815ACT</alias>
+        <alias>LM7818ACT</alias>
+        <alias>LM7824ACT</alias>
+      </aliases>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805CT</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-220_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="Arduino_As_Uno-cache">
+      <uri>/home/jaap/Downloads/spijkstaal-controller/arduinoshield/Arduino_As_Uno-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad2)">
+      <node ref="U4" pin="4"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad6)">
+      <node ref="U3" pin="7"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="6" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="7" name="Net-(C6-Pad2)">
+      <node ref="U3" pin="6"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="8" name="/Reset">
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="9" name="/7">
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="10" name="/1(Tx)">
+      <node ref="P4" pin="7"/>
+    </net>
+    <net code="11" name="/0(Rx)">
+      <node ref="P4" pin="8"/>
+    </net>
+    <net code="12" name="/A5-2(SCL)">
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="13" name="/A4-2(SDA)">
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="14" name="/AREF">
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="15" name="/13(SCK)">
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="16" name="/12(MISO)">
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="17" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C8-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C8-Pad2)">
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="20" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="21" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="22" name="/11(**/MOSI)">
+      <node ref="P3" pin="7"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="23" name="/4">
+      <node ref="R3" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="24" name="/+15V">
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U2" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="25" name="Net-(P8-Pad1)">
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="26" name="Net-(P7-Pad1)">
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="27" name="Net-(P6-Pad1)">
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="28" name="Net-(P5-Pad1)">
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="29" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="30" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="31" name="/3(**)">
+      <node ref="R2" pin="1"/>
+      <node ref="P4" pin="5"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="32" name="/10(**/SS)">
+      <node ref="U3" pin="1"/>
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="33" name="/9(**)">
+      <node ref="P3" pin="9"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="34" name="/6(**)">
+      <node ref="J2" pin="5"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="35" name="/5(**)">
+      <node ref="P4" pin="3"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="36" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="37" name="/2">
+      <node ref="J6" pin="1"/>
+      <node ref="P4" pin="6"/>
+    </net>
+    <net code="38" name="/A5(SCL)">
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="39" name="/A4(SDA)">
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="40" name="/A1">
+      <node ref="P2" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="41" name="/A0">
+      <node ref="P2" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="42" name="/IOREF">
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="43" name="/8">
+      <node ref="P3" pin="10"/>
+    </net>
+    <net code="44" name="/A3">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="45" name="/A2">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="46" name="/Vin">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="47" name="+5V">
+      <node ref="J5" pin="3"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="48" name="GND">
+      <node ref="U1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J1" pin="7"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="J6" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P1" pin="6"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="49" name="/24V-Fused">
+      <node ref="D1" pin="2"/>
+      <node ref="F1" pin="1"/>
+    </net>
+  </nets>
+</export>
