@@ -9,6 +9,6 @@ Designed for a 24V Lead-Acid battery and a 3KW, 24V DC motor
 Traditional H-bridge design with an Arduino as controlling interface.
 The high power print and the controller print are seperate.
 
-Note on MOSFET design:
-Although the power lines on the board are big, they are NOT big enough! You need to add a layer of copper wire and solder on top of all the thick wires and the wires to the power diodes. 200 Amps is quite a lot!
+Carefull, this is work in progress. As it is now, it's sure to give you 
+spectacular fireworks, but no moving vehicle!
 

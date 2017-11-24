@@ -1,0 +1,15 @@
+Farnell:
+
+2325975		1x	Fast / Ultrafast Diode 600V, 200A	23,38
+2784061		4x	IXFN360N10T BJT MostFet 360A/100V	19,10
+		    4x  Infineon IDP30E65D1 Disode 
+2762031		1x	Fuse 150A 				14,34
+2468299		2x	Condensator 2200 uF/100V		 3,13
+
+RS: 
+784-6229	1x	MagnaChip Dual Diode 400V 200A		19,43
+125-8041	4x	IXFN360N10T BJT MostFet 360A/100V	18,77
+787-4394	1x	LittleFuse 150A 32V fuse		 6,19
+744-1183	2x 	Condensator 2200 uF/100V		 3,79
+
+

@@ -1,0 +1,419 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:controller-cache
+EELAYER 25 0
+EELAYER END
+$Descr User 7874 5906
+encoding utf-8
+Sheet 1 1
+Title "Spijkstaal Power Regulator Replacement"
+Date ""
+Rev ""
+Comp "ZB45 Makerspace"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CP1 C1
+U 1 1 5A05C737
+P 1450 2700
+F 0 "C1" H 1475 2800 50  0000 L CNN
+F 1 "2200uF / 80V" H 1500 2900 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" H 1450 2700 50  0001 C CNN
+F 3 "" H 1450 2700 50  0000 C CNN
+	1    1450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSMN3R4 Q1
+U 1 1 5A05C738
+P 2350 2300
+F 0 "Q1" H 2600 2375 50  0000 L CNN
+F 1 "IXFN360N10T" H 2600 2300 50  0000 L CNN
+F 2 "SOT-227" H 2600 2225 50  0000 L CIN
+F 3 "" H 2350 2300 50  0000 L CNN
+F 4 "798-2959" H 2350 2300 60  0001 C CNN "RS"
+	1    2350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOTOR M1
+U 1 1 5A05C739
+P 3850 2750
+F 0 "M1" H 3850 2750 60  0000 C CNN
+F 1 "MOTOR" H 3850 2850 60  0000 C CNN
+F 2 "jaapslib:AccuDraad" H 3850 2750 60  0001 C CNN
+F 3 "" H 3850 2750 60  0000 C CNN
+	1    3850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 5A05C73A
+P 6200 2750
+F 0 "C2" H 6225 2850 50  0000 L CNN
+F 1 "2200uF / 80V" H 5900 2950 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" H 6200 2750 50  0001 C CNN
+F 3 "" H 6200 2750 50  0000 C CNN
+	1    6200 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L F_Small F1
+U 1 1 5A05C73E
+P 1100 1250
+F 0 "F1" H 1060 1310 50  0000 L CNN
+F 1 "150A (slow)" H 980 1190 50  0000 L CNN
+F 2 "jaapslib:BoltDownFuse" H 1100 1250 50  0001 C CNN
+F 3 "R" H 1100 1250 50  0000 C CNN
+F 4 "226-1005" H 1100 1250 60  0001 C CNN "RS"
+F 5 "Pudenz 425A Automotive Bolt-down Fuse, 80V dc" H 1100 1250 60  0001 C CNN "Fabrikant"
+	1    1100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery-RESCUE-ontwerp BT1
+U 1 1 5A05C73F
+P 800 2700
+F 0 "BT1" H 900 2750 50  0000 L CNN
+F 1 "24V Battery" H 900 2650 50  0000 L CNN
+F 2 "jaapslib:AccuDraad" V 800 2740 50  0001 C CNN
+F 3 "" V 800 2740 50  0000 C CNN
+	1    800  2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOTOR M1B1
+U 1 1 5A05C740
+P 2300 1250
+F 0 "M1B1" H 2300 1250 60  0000 C CNN
+F 1 "MOTOR" H 2300 1350 60  0000 C CNN
+F 2 "jaapslib:AccuDraad" H 2300 1250 60  0001 C CNN
+F 3 "" H 2300 1250 60  0000 C CNN
+	1    2300 1250
+	1    0    0    -1  
+$EndComp
+Text Label 800  2050 1    60   ~ 0
++24V-NF
+Text Label 1300 1250 0    60   ~ 0
++24V
+Text Label 800  3050 0    60   ~ 0
+GND
+Text Label 1550 2350 0    60   ~ 0
+SIG1H
+Text Label 6100 2350 2    60   ~ 0
+SIG2H
+Text Label 5400 2750 2    60   ~ 0
+M2
+$Comp
+L D D1
+U 1 1 5A05C741
+P 2300 1800
+F 0 "D1" H 2300 1900 50  0000 C CNN
+F 1 "MPSC2N100U40" H 2300 1700 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220-2_Vertical" H 2300 1800 50  0001 C CNN
+F 3 "" H 2300 1800 50  0001 C CNN
+F 4 "133-9812" H 2300 1800 60  0001 C CNN "RS"
+F 5 "Infineon IDP30E65D1XKSA1 Switching Diode, 650V 60A, 2+ Tab-Pin TO-220" H 2300 1800 60  0001 C CNN "Fabrikant"
+	1    2300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5A05C742
+P 1950 2350
+F 0 "R1" V 2030 2350 50  0000 C CNN
+F 1 "1R" V 1950 2350 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 1880 2350 50  0001 C CNN
+F 3 "" H 1950 2350 50  0000 C CNN
+	1    1950 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x08 J1
+U 1 1 5A05C74B
+P 6350 1550
+F 0 "J1" H 6350 1950 50  0000 C CNN
+F 1 "Conn_01x08" H 6200 1000 50  0000 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-G_08x5.08mm_Angled" H 6350 1550 50  0001 C CNN
+F 3 "" H 6350 1550 50  0001 C CNN
+F 4 "189-6256" H 6350 1550 60  0001 C CNN "RS"
+	1    6350 1550
+	0    -1   1    0   
+$EndComp
+Text Label 6050 1050 1    60   ~ 0
++24V
+Text Label 6150 1050 1    60   ~ 0
+GND
+Text Label 6250 1050 1    60   ~ 0
+SIG1H
+Text Label 6350 1050 1    60   ~ 0
+SIG1L
+Text Label 6450 1050 1    60   ~ 0
+M1
+Text Label 6550 1050 1    60   ~ 0
+M2
+Text Label 6650 1050 1    60   ~ 0
+SIG2L
+Text Label 6750 1050 1    60   ~ 0
+SIG2H
+Text Label 1550 3200 0    60   ~ 0
+SIG1L
+Text Label 2250 2750 0    60   ~ 0
+M1
+Text Label 6100 3200 2    60   ~ 0
+SIG2L
+$Comp
+L PSMN3R4 Q2
+U 1 1 5A069B0D
+P 2350 3150
+F 0 "Q2" H 2600 3225 50  0000 L CNN
+F 1 "IXFN360N10T" H 2600 3150 50  0000 L CNN
+F 2 "SOT-227" H 2600 3075 50  0000 L CIN
+F 3 "" H 2350 3150 50  0000 L CNN
+F 4 "798-2959" H 2350 3150 60  0001 C CNN "RS"
+	1    2350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSMN3R4 Q3
+U 1 1 5A069C15
+P 5300 2300
+F 0 "Q3" H 5550 2375 50  0000 L CNN
+F 1 "IXFN360N10T" H 5550 2300 50  0000 L CNN
+F 2 "SOT-227" H 5550 2225 50  0000 L CIN
+F 3 "" H 5300 2300 50  0000 L CNN
+F 4 "798-2959" H 5300 2300 60  0001 C CNN "RS"
+	1    5300 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PSMN3R4 Q4
+U 1 1 5A069D48
+P 5300 3150
+F 0 "Q4" H 5550 3225 50  0000 L CNN
+F 1 "IXFN360N10T" H 5550 3150 50  0000 L CNN
+F 2 "SOT-227" H 5550 3075 50  0000 L CIN
+F 3 "" H 5300 3150 50  0000 L CNN
+F 4 "798-2959" H 5300 3150 60  0001 C CNN "RS"
+	1    5300 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5A07C31F
+P 1950 3200
+F 0 "R2" V 2030 3200 50  0000 C CNN
+F 1 "1R" V 1950 3200 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 1880 3200 50  0001 C CNN
+F 3 "" H 1950 3200 50  0000 C CNN
+	1    1950 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5A07CD11
+P 5700 2350
+F 0 "R3" V 5780 2350 50  0000 C CNN
+F 1 "1R" V 5700 2350 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 5630 2350 50  0001 C CNN
+F 3 "" H 5700 2350 50  0000 C CNN
+	1    5700 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5A07CE6F
+P 5700 3200
+F 0 "R4" V 5780 3200 50  0000 C CNN
+F 1 "1R" V 5700 3200 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 5630 3200 50  0001 C CNN
+F 3 "" H 5700 3200 50  0000 C CNN
+	1    5700 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 1350 6050 1050
+Wire Wire Line
+	6150 1350 6150 1050
+Wire Wire Line
+	6250 1350 6250 1050
+Wire Wire Line
+	6350 1050 6350 1350
+Wire Wire Line
+	6450 1050 6450 1350
+Wire Wire Line
+	6550 1050 6550 1350
+Wire Wire Line
+	6650 1050 6650 1350
+Wire Wire Line
+	6750 1050 6750 1350
+Wire Wire Line
+	2450 2500 2450 2950
+Wire Wire Line
+	2250 2750 3300 2750
+Connection ~ 2450 2750
+Wire Wire Line
+	5200 2500 5200 2950
+Wire Wire Line
+	4400 2750 5400 2750
+Connection ~ 5200 2750
+Wire Wire Line
+	2450 3500 2450 3350
+Wire Wire Line
+	800  3500 6200 3500
+Wire Wire Line
+	5200 3500 5200 3350
+Wire Wire Line
+	2450 2100 2450 1950
+Wire Wire Line
+	5200 1950 5200 2100
+Wire Wire Line
+	1450 1800 1450 2550
+Wire Wire Line
+	6200 1950 6200 2600
+Wire Wire Line
+	1450 3500 1450 2850
+Connection ~ 2450 3500
+Wire Wire Line
+	6200 3500 6200 2900
+Connection ~ 5200 3500
+Connection ~ 5200 1950
+Wire Wire Line
+	2850 1250 3200 1250
+Wire Wire Line
+	3200 1250 3200 1950
+Connection ~ 3200 1950
+Wire Wire Line
+	3000 1250 3000 1800
+Wire Wire Line
+	3000 1800 2450 1800
+Connection ~ 3000 1250
+Wire Wire Line
+	1450 1800 2150 1800
+Wire Wire Line
+	1600 1800 1600 1250
+Wire Wire Line
+	1200 1250 1750 1250
+Connection ~ 1600 1250
+Wire Wire Line
+	800  1250 800  2550
+Wire Wire Line
+	800  2850 800  3500
+Connection ~ 1450 3500
+Wire Wire Line
+	2100 2350 2150 2350
+Wire Wire Line
+	2100 3200 2150 3200
+Wire Wire Line
+	5500 3200 5550 3200
+Wire Wire Line
+	5500 2350 5550 2350
+Wire Wire Line
+	5850 2350 6100 2350
+Wire Wire Line
+	5850 3200 6100 3200
+Wire Wire Line
+	1800 2350 1550 2350
+Wire Wire Line
+	1800 3200 1550 3200
+Wire Wire Line
+	800  1250 1000 1250
+Wire Wire Line
+	2450 1950 6200 1950
+Connection ~ 1600 1800
+$Comp
+L D D1
+U 1 1 5A1727A6
+P 3250 2350
+F 0 "D1" H 3250 2450 50  0000 C CNN
+F 1 "IDP30E65D1" H 3250 2250 50  0000 C CNN
+F 2 "" H 3250 2350 50  0001 C CNN
+F 3 "" H 3250 2350 50  0001 C CNN
+	1    3250 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L D D3
+U 1 1 5A17284E
+P 4400 2350
+F 0 "D3" H 4400 2450 50  0000 C CNN
+F 1 "IDP30E65D1" H 4400 2250 50  0000 C CNN
+F 2 "" H 4400 2350 50  0001 C CNN
+F 3 "" H 4400 2350 50  0001 C CNN
+	1    4400 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L D D2
+U 1 1 5A1728D4
+P 3250 3100
+F 0 "D2" H 3250 3200 50  0000 C CNN
+F 1 "IDP30E65D1" H 3250 3000 50  0000 C CNN
+F 2 "" H 3250 3100 50  0001 C CNN
+F 3 "" H 3250 3100 50  0001 C CNN
+	1    3250 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L D D4
+U 1 1 5A172998
+P 4400 3100
+F 0 "D4" H 4400 3200 50  0000 C CNN
+F 1 "IDP30E65D1" H 4400 3000 50  0000 C CNN
+F 2 "" H 4400 3100 50  0001 C CNN
+F 3 "" H 4400 3100 50  0001 C CNN
+	1    4400 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 2500 3250 2950
+Connection ~ 3250 2750
+Wire Wire Line
+	3250 3250 3250 3500
+Connection ~ 3250 3500
+Wire Wire Line
+	3250 2200 3250 1950
+Connection ~ 3250 1950
+Wire Wire Line
+	4400 2200 4400 1950
+Connection ~ 4400 1950
+Wire Wire Line
+	4400 2950 4400 2500
+Wire Wire Line
+	4400 3250 4400 3500
+Connection ~ 4400 3500
+$EndSCHEMATC
